@@ -1,0 +1,57 @@
+.profile__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); 
+    background: white; 
+}
+
+.profile__data {
+    width: 60%;
+    padding: 50px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    background: var(--secondary-color);
+    position: relative;
+}
+
+.profile__data h2, .profile__data h3 {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 2rem;
+}
+
+.user__info p {
+    font-size: 1.2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background:  #0b2727;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color: azure !important;
+    display: block;
+    background: var(--heading-color);
+    border: none;
+    border-radius: 5px;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+.google__btn, .facebook__btn, .qr__btn, .reset__btn, .login__btn, .register__btn {
+    background:  #0b2727 !important;
+    color: white !important;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.enabled-text {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+.searchBar {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 800px;
+    height: 50px;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.autocomplete {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+  
+.autocomplete li {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.autocomplete li:hover {
+    background-color: #f0f0f0;
+}
+  
+/* hide the autocomplete list when there are no results */
+.autocomplete:empty {
+    display: none;
+}
+
+.results {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.link-style {
+    text-decoration: none; 
+    color: #007BFF; 
+    transition: color 0.3s; 
+      &:hover {
+      color: #0056b3; 
+    }
+}
